@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.Container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Header h1 {
+  margin: 0;
+}
+
+.Headline {
+  font-style: italic;
+  color: #555;
+}
+
+h2 {
+  margin-top: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.Pendidikan {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.PendidikanItem {
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.PendidikanItem .Tahun {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.PendidikanItem .Sekolah {
+  font-size: 14px;
+  color: #333;
+}
+
+.Keahlian {
+  display: flex;
+  gap: 40px;
+}
+
+.Keahlian .JenisKeahlian {
+  flex: 1;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.Kontak p {
+  margin: 4px 0;
+}
+
